@@ -65,5 +65,12 @@ div.content
     font-size: 30px
     text-align: center
 
-div.footer
-  background-color: $primary_color
+body
+  &::-webkit-scrollbar
+    background-color: #424769
+  &::-webkit-scrollbar-thumb
+    background-color: #3e0068
+    border-radius: 25px
+    &:hover
+      background-color: #005f6b
+      transition: 1000ms
